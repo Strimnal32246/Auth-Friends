@@ -4,7 +4,7 @@ import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 
 import Login from "./components/Login";
 import PrivateRoute from "./components/PrivateRoute";
-import FriendsList from "./components/Friendslist";
+import FriendsList from "./components/FriendsList";
 import NewFriend from "./components/NewFriends";
 
 function App() {
@@ -30,4 +30,3 @@ function App() {
 }
 
 export default App;
-
